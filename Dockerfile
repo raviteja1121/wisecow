@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+LABEL ravi
 RUN apt-get update
 RUN apt-get install fortune-mod cowsay -y
 RUN apt-get install -y netcat
